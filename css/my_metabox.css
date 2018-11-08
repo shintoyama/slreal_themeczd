@@ -1,0 +1,605 @@
+/* CSS Document */
+
+#uploadedImageView {
+    border-top: 1px solid #DFDFDF;
+    margin-top: 10px;
+    padding-top: 10px;
+    overflow: auto;
+}
+#uploadedImageView img {
+    border: 1px solid #DFDFDF;
+    padding: 5px;
+}
+table.designsample{
+	width: 100%;
+	border-collapse: collapse;
+}
+table.designsample textarea{
+	display: none;
+	background: #fff!important;
+	border: none;
+	box-shadow: none!important;
+	overflow: visible;
+	width: 100%;
+	font-size: 14px;
+	resize: none;
+	height: 0;
+	padding: 7px;
+}
+table.designsample tr th:first-child,
+table.designsample tr td:first-child,
+table.designsample tr th:nth-child(2),
+table.designsample tr td:nth-child(2){
+	border-right: 1px solid #eee;
+}
+table.designsample th,
+table.designsample td{
+	width: 33%;
+	text-align: center;
+	padding: 20px 40px;
+	padding-bottom: 0;
+}
+table.designsample td{
+	padding-bottom: 0;
+	position: relative;
+}
+table.designsample tr td:after{
+	position: absolute;
+	top: 0;
+	left: 0px;
+	width: 12px;
+	height: 18px;
+	padding: 2px 7px;
+	text-align: center;
+	font-size: 11px;
+	color: #fff;
+	background: #aaa;
+}
+table.designsample tr:first-child td:first-child:after{
+	content: "1";
+}
+table.designsample tr:first-child td:nth-child(2):after{
+	content: "2";
+}
+table.designsample tr:first-child td:nth-child(3):after{
+	content: "3";
+}
+table.designsample tr:nth-child(4) td:nth-child(1):after{
+	content: "4";
+}
+table.designsample tr:nth-child(4) td:nth-child(2):after{
+	content: "5";
+}
+table.designsample tr:nth-child(4) td:nth-child(3):after{
+	content: "6";
+}
+table.designsample tr:nth-child(7) td:nth-child(1):after{
+	content: "7";
+}
+table.designsample tr:nth-child(7) td:nth-child(2):after{
+	content: "8";
+}
+table.designsample tr:nth-child(7) td:nth-child(3):after{
+	content: "9";
+}
+table.designsample tr:nth-child(10) td:nth-child(1):after{
+	content: "10";
+}
+table.designsample tr:nth-child(10) td:nth-child(2):after{
+	content: "11";
+}
+table.designsample tr:nth-child(10) td:nth-child(3):after{
+	content: "12";
+}
+table.designsample tr:nth-child(13) td:nth-child(1):after{
+	content: "13";
+}
+table.designsample tr:nth-child(13) td:nth-child(2):after{
+	content: "14";
+}
+table.designsample tr:nth-child(13) td:nth-child(3):after{
+	content: "15";
+}
+table.designsample tr:nth-child(16) td:nth-child(1):after{
+	content: "16";
+}
+table.designsample tr:nth-child(16) td:nth-child(2):after{
+	content: "17";
+}
+table.designsample tr:nth-child(16) td:nth-child(3):after{
+	content: "18";
+}
+table.designsample tr:nth-child(19) td:nth-child(1):after{
+	content: "19";
+}
+table.designsample tr:nth-child(19) td:nth-child(2):after{
+	content: "20";
+}
+table.designsample tr:nth-child(19) td:nth-child(3):after{
+	content: "21";
+}
+table.designsample th{
+	font-weight: normal;
+	font-size: 16px;
+	padding: 10px 40px;
+	padding-bottom: 0;
+	vertical-align: top;
+}
+table.designsample td.copybtn{
+	padding: 10px 40px!important;
+	height: 60px;
+	border-bottom: 1px solid #eee;
+}
+table.designsample td.copybtn button{
+	padding: 6px 20px;
+	padding-top: 6px;
+	border-radius: 15px;
+	background: #555;
+	font-size: 12px!important;
+	color: #fff;
+	border: none!important;
+	-webkit-appearance: none!important;
+	cursor: pointer;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+}
+table.designsample td.copybtn button:hover{
+	background: #888;
+}
+
+
+
+
+
+/* デザインコード */
+
+.simple-box1{
+	border: 3px solid #eee;
+	border-radius: 4px;
+}
+.simple-box2{
+	border: 3px dashed #eee;
+	border-radius: 4px;
+	
+}
+.simple-box3{
+	position:relative;
+  	border:3px double #eee;
+	border-radius: 4px;
+}
+.simple-box4{
+	border: 1px solid #eee;
+	border-radius: 4px;
+	position: relative;
+}
+.simple-box4:before{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity:0.05;
+}
+.simple-box5{
+	position: relative;
+	border: 1px dashed #aaa;
+	border-radius: 4px;
+}
+.simple-box5:before{
+	position: absolute;
+	content: "";
+	display: block;
+	right: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background:#F7F7F7;
+	opacity:0.05;
+}
+.simple-box6{
+	background: #eee;
+	border-radius: 4px;
+}
+.simple-box7{
+  	border:10px solid #aaa;
+	border-radius: 4px;
+	position: relative;
+}
+.simple-box7:before{
+	position: absolute;
+	content: "";
+	display: block;
+	right: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background:#F7F7F7;
+	opacity:0.2;
+}
+.simple-box8{
+	position: relative;
+	border-left: 5px solid #aaa;
+}
+.simple-box8:before{
+	position: absolute;
+	content: "";
+	display: block;
+	right: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background:#F7F7F7;
+	opacity:0.1;
+}
+.simple-box9{
+	position: relative;
+}
+.simple-box9:before{
+	position: absolute;
+	content: "";
+	display: block;
+	right: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background:#F7F7F7;
+	opacity:0.2;
+}
+.simple-box9:after{
+	position: absolute;
+	content: "";
+	display: block;
+	right: 0;
+	top: 0;
+	border-color: #e3e3e3 #e3e3e3 #fff #fff;
+	border-width: 0 30px 30px 0;
+	border-style: solid;
+	width: 0;
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+
+.kaisetsu-box1{
+	position: relative;
+	padding-top: 80px!important;
+}
+.kaisetsu-box1:before{
+	position: absolute;
+	content: "";
+	display: block;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background:#F7F7F7;
+	opacity:0.15;
+	border-radius: 4px;
+}
+.kaisetsu-box1:after{
+	position: absolute;
+	content: "要約リスト";
+	display: block;
+	left: 0;
+	top: 0;
+	color: #fff;
+	width: 100%;
+	padding: 12px 0;
+	text-align: center;
+	background: #aaa;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	font-size: 21px;
+	font-weight: 500;
+}
+.kaisetsu-box2{
+	position: relative;
+	padding-top: 80px!important;
+	border: 1px solid #aaa;
+	border-radius: 4px;
+}
+.kaisetsu-box2:before{
+	position: absolute;
+	content: "";
+	display: block;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background:#F7F7F7;
+	opacity:0.15;
+	border-radius: 4px;
+}
+.kaisetsu-box2:after{
+	position: absolute;
+	content: "要約リスト";
+	display: block;
+	left: 0;
+	top: 0;
+	color: #fff;
+	width: 100%;
+	padding: 12px 0;
+	text-align: center;
+	background: #aaa;
+	font-size: 21px;
+	font-weight: 500;
+}
+.kaisetsu-box3{
+	position: relative;
+	border: 10px solid #E3B66A;
+	background:#369377;
+	border-radius: 1px;
+	color: #fff!important;
+	padding-top: 70px!important;
+}
+.kaisetsu-box3:before{
+	position: absolute;
+	content:"";
+	right: 0;
+	bottom: 0;
+	width: 57px;
+	height: 23px;
+
+	background-size:contain;
+}
+.kaisetsu-box3:after{
+	position: absolute;
+	content: "ー 要約リスト ー";
+	display: block;
+	left: 0;
+	top: 15px;
+	color: #fff;
+	width: 100%;
+	padding: 15px 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 21px;
+}
+.kaisetsu-box4{
+	position: relative;
+	border: 1px solid #aaa;
+	border-radius: 4px;
+	border-top-left-radius: 0;
+	margin-top: 40px!important;
+}
+.kaisetsu-box4:after{
+	position: absolute;
+	content: "要点まとめ";
+	line-height: 0;
+	font-size: 18px;
+	left: -1px;
+	top: -36px;
+	color: #fff;
+	padding: 18px 15px;
+	background: #aaa;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	font-weight: 500;
+}
+.kaisetsu-box5{
+	position: relative;
+	border-radius: 4px;
+	padding-top: 40px!important;
+	margin-top: 30px!important;
+}
+.kaisetsu-box5:before{
+	position: absolute;
+	content: "";
+	display: block;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background:#aaa;
+	opacity:0.12;
+	border-radius: 4px;
+}
+.kaisetsu-box5:after{
+	position: absolute;
+	content: "要点まとめ";
+	line-height: 0;
+	font-size: 18px;
+	left: 20px;
+	top: -18px;
+	color: #fff;
+	padding: 18px 15px;
+	background: #aaa;
+	border-radius: 2px;
+	font-weight: 500;
+}
+
+
+.concept-box1,
+.concept-box2,
+.concept-box3,
+.concept-box4,
+.concept-box5,
+.concept-box6{
+	position: relative;
+	border: 1px solid #eee;
+	border-radius: 4px;
+	padding-top: 40px!important;
+	margin-top: 30px!important;
+}
+.concept-box1:before,
+.concept-box2:before,
+.concept-box3:before,
+.concept-box4:before,
+.concept-box5:before,
+.concept-box6:before{
+	position: absolute;
+	font-weight: bold;
+	background: #fff;
+	color: #555;
+	line-height: 0;
+	font-size: 22px;
+	top: -21px;
+	left: 78px;
+	padding: 20px 8px 20px 8px;
+}
+.concept-box1:after,
+.concept-box2:after,
+.concept-box3:after,
+.concept-box4:after,
+.concept-box5:after,
+.concept-box6:after{
+	position: absolute;
+	background:#aaa;
+	color: #fff;
+	font-family: "Font Awesome\ 5 Free";
+font-weight: 900;
+	font-size: 24px;
+	border: 5px solid #fff;
+	text-align: center;
+	width: 24px;
+	height: 24px;
+	left: 20px;
+	top: -34px;
+	padding: 15px;
+	padding-top: 17px;
+	padding-bottom: 13px;
+	border-radius: 40px;
+	line-height: 24px;
+}
+
+.concept-box1:before{
+	content: "ポイント";
+}
+.concept-box1:after{
+	content: "\f00c";
+}
+.concept-box2:before{
+	content: "注意点";
+}
+.concept-box2:after{
+	content: "\f071";
+	line-height: 16px;
+}
+.concept-box3:before{
+	content: "良い例";
+}
+.concept-box3:after{
+	content: "\f22d";
+	font-size: 2.6rem;
+	line-height: 20px;
+}
+.concept-box4:before{
+	content: "悪い例";
+}
+.concept-box4:after{
+	content: "\f00d";
+	line-height: 20px;
+}
+.concept-box5:before{
+	content: "参考";
+}
+.concept-box5:after{
+	content: "\f02d";
+}
+.concept-box6:before{
+	content: "メモ";
+}
+.concept-box6:after{
+	content: "\f303";
+}
+
+.innerlink-box1{
+	position: relative;
+	padding-top: 40px!important;
+	border: 1px solid #aaa;
+	border-radius: 4px;
+	margin-top: 30px!important;
+}
+.innerlink-box1:before{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity:0.04;
+}
+.innerlink-box1:after{
+	position: absolute;
+	content: "あわせて読みたい";
+	font-family: 'ヒラギノ角ゴ ProN W3', Hiragino Sans, 'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-seri;
+	background:red;
+	border: 3px solid #aaa;
+	line-height: 0;
+	color: #fff;
+	border-radius: 2px;
+	font-size: 14px;
+	top: -20px;
+	padding: 16px 13px 16px 15px;
+	width: 140px;
+	left: calc(50% - 86px);
+}
+
+
+
+.simple-box1,
+.simple-box2,
+.simple-box3,
+.simple-box4,
+.simple-box5,
+.simple-box6,
+.simple-box7,
+.simple-box8,
+.simple-box9,
+.kaisetsu-box1,
+.kaisetsu-box2,
+.kaisetsu-box3,
+.kaisetsu-box4,
+.kaisetsu-box5,
+.kaisetsu-box6,
+.concept-box1,
+.concept-box2,
+.concept-box3,
+.concept-box4,
+.concept-box5,
+.concept-box6,
+.innerlink-box1{
+	padding: 20px 25px;
+}
+
+_:-ms-lang(x), .concept-box1:after,
+_:-ms-lang(x), .concept-box2:after,
+_:-ms-lang(x), .concept-box3:after,
+_:-ms-lang(x), .concept-box4:after,
+_:-ms-lang(x), .concept-box5:after,
+_:-ms-lang(x), .concept-box6:after{
+	border: none!important;
+	top: -25px!important;
+	left: 36px!important;
+	padding: 12px;
+}
+_:-ms-lang(x), .concept-box1:before,
+_:-ms-lang(x), .concept-box2:before,
+_:-ms-lang(x), .concept-box3:before,
+_:-ms-lang(x), .concept-box4:before,
+_:-ms-lang(x), .concept-box5:before,
+_:-ms-lang(x), .concept-box6:before{
+	left: 28px;
+	padding: 20px 8px 20px 60px;
+}
+_:-ms-lang(x), .concept-box2:after{
+	line-height: 21px;
+}
+_:-ms-lang(x), .concept-box3:after{
+	line-height: 24px;
+}
+_:-ms-lang(x), .concept-box4:after{
+	line-height: 22px;
+}
+
+@media all and (-ms-high-contrast:none){
+	.concept-box1:before,
+	.concept-box2:before,
+	.concept-box3:before,
+	.concept-box4:before,
+	.concept-box5:before,
+	.concept-box6:before{
+		top: -19px;
+	}
+}
