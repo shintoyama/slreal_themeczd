@@ -1038,4 +1038,18 @@ add_action('wp_before_admin_bar_render', 'add_new_item_in_admin_bar');
 require_once( 'theme-update.php' );
 // 引数に api の URL を指定
 $ATPU_Theme = new ATPU_Theme( 'https://jin-dev.com/jin/api/' );
+
+
+//記事内PHPショートカット
+function short_php($params = array()) {
+  extract(shortcode_atts(array(
+    'file' => 'default'
+  ), $params));
+  ob_start();
+  include(STYLESHEETPATH . "/$file.php");
+  return ob_get_clean();
+}
+
+add_shortcode('myphp1', 'short_php');
+
 ?>
