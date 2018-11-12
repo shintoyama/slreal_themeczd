@@ -2,7 +2,6 @@
 	<!--フッター-->
 	<?php if( is_bread_display() == "exist") :?>
 	<?php if( ! is_mobile() ): ?>
-	<?php breadcrumbs(); ?>
 	<?php endif; ?>
 	<?php endif; ?>
 	<footer role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">

@@ -6,6 +6,7 @@
 			<main id="main-contents" class="main-contents <?php echo is_article_design(); ?> <?php is_animation_style(); ?>" itemprop="mainContentOfPage">
 				<section class="cps-post-box hentry">
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+						<?php breadcrumbs(); ?>
 						<?php
 							// カテゴリー情報を取得
 							if( ! is_singular('cta') ){
