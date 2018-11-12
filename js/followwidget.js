@@ -11,6 +11,8 @@
 		var side = $('#sidebar'); // サイドバーのID
 		var wrapper = $('#widget-tracking'); // 広告を包む要素のID
 
+		if (main.length && side.length && wrapper.length){
+
 		var sideMargin = {
 			top: side.css('margin-top') ? side.css('margin-top') : 0,
 			right: side.css('margin-right') ? side.css('margin-right') : 0,
@@ -92,5 +94,6 @@
 		w.on('load', scrollAdjust);
 		w.on('scroll', scrollAdjust);
 		w.on('resize', resizeAdjust);
+	}
 	});
 })(jQuery);
